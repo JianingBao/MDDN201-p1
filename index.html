@@ -6,148 +6,167 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Your Website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+	body{
+		background-image: url("img/img8.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		margin-right: 200px;
+		background-attachment: fixed;
+	}
+	</style>
 </head>
 
 <body>
 
-<p>Notice how this content isn't centered. To center it we need to wrap it</p>
+	<div class="sidenav">
+		<br>
+		<a href="#one">• Parkingsystem</a>
+		<br>
+		<a href="#two">• CCTV</a>
+		<br>
+		<a href="#three">• Powerlines</a>
+		<br>
+	</div>
+ <div style="margin-left:25%">
+	<section style="margin-bottom:110%" >
+			<h3><i>Network in Wellington</i></h3>
+			<p><strong>Network is one of the most important thing in Wellington's regular daily life. You can see many clues of intrtnet by everywhere. Below there you will find out some examples about how internet works in Wellington</p>
+    <div style="text-align:center">
+			<div class="g-row">
+				<div class="g-100">
+				 <img src="img/img2.jpg">
+				</div>
+			</div>
 
-	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
 
-		<p>Notice how if you change the width of your browser it stays in the center</p>
 	</section>
 
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
+
 	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
+		<h3>Navigation Bar:</h3>
+		<a href="#one">Parkingsystem</a>
+		<a href="#two">CCTV</a>
+		<a href="#three">Powerlines</a>
 	</nav>
 
-	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
 
-	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
 
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
-
-	<header>
+	<header class="header1" id="one">
 		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
+     <div class="g-80 padded">
+			<h1>Parking system</h1>
+			<p><strong>Parking system is one of the most commen thing for those people who live in Wellington.They helped goverment to mange the morden world, all the parking space are connected with terminal by interenet, so when people pay for their parking, the system can connect them with bank and help manager to identify who paid for their parking space.</p>
+
+		</div>
+
+
 		</section>
 	</header>
+  <section>
+	<div class="g-row">
+		<div class="g-30">
+		 <img src="img/img2.jpg" border="2"/>
+	  </div>
 
-	
+		 <div class="g-30">
+			 <img src="img/img3.jpg" border="2" hspace="20"/>
+		 </div>
+	 </div>
+	 <div class="g-row">
+ 		<div class="g-30">
+ 		 <img src="img/img2.jpg" border="2"/>
+ 	  </div>
 
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
+ 		 <div class="g-30">
+ 			 <img src="img/img3.jpg" border="2" hspace="20"/>
+ 		 </div>
+ 	 </div>
+	 <div class="g-row">
+			<div class="g-30">
+			 <img src="img/img2.jpg" border="2"/>
 			</div>
-			<div class="g-50 show">
-				50% width .g-50
+
+			 <div class="g-30">
+				 <img src="img/img3.jpg" border="2" hspace="20"/ >
+			 </div>
+		 </div>
+
+   </section>
+
+
+
+		<header class=header1 id="two">
+			<section>
+       <div class="g-80 padded">
+				<h3>CCTV</h3>
+				<p><strong>CCTV also known as close-circuit television, this technology always used as a security devices. You can find many cameras in museum, bank, school or other place that need to be proceted. They will send their videos to cloud automatically though internet, and when the police or other people want to watch those videos, they can go to the cloud and download the video by connected to internet.
+        </div>
+	 		</section>
+		</header>
+     <section>
+      <div class="g-row">
+			<div class="g-30">
+				<img src="img/img5.jpg" border="2"/>
 			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
-		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
+				<div class="g-30">
+					<img src="img/img6.jpg" border="2" hspace="20"/>
 				</div>
-				<div class="g-50 show">
-					50%
+			</div>
+			<div class="g-row">
+			<div class="g-30">
+				<img src="img/img5.jpg" border="2"/>
+			</div>
+				<div class="g-30">
+					<img src="img/img6.jpg" border="2" hspace="20"/>
 				</div>
 			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
-	</section>
-
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</section>
-	</header>
-
-	<section>
-		<div class="g-row">
-			<div class="g-20">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
+			<div class="g-row">
 			<div class="g-30">
-				<img src="img/cover.jpg">
+				<img src="img/img5.jpg" border="2"/>
 			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+				<div class="g-30">
+					<img src="img/img6.jpg" border="2" hspace="20"/>
+				</div>
 			</div>
-		</div>
+			</section>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+			<header class=header1 id="three">
+				<section>
+       	<div class="g-80 padded">
+					<h3>PowerLines</h3>
+         <p><strong>Powerlines are the most important thing in modern life, because they can transfer many things into different homes. As the most important things in our daily life, powerlines transfer the basic element that keep machines and internet work, electricity that can keep us connected to this world. Some company also used powerlins to install cables, which also can help us to get internet and connect to the world.
+         </div>
+					</section>
+				</header>
+         <section>
+				<div class="g-row">
+			 	 <div class="g-30">
+			 		 <img src="img/cover.jpg" border="2">
+			 	 </div>
+			 		 <div class="g-30">
+			 			 <img src="img/cover.jpg" border="2" hspace="20"/>
+			 		 </div>
+				 </div>
+				 <div class="g-row">
+					<div class="g-30">
+						<img src="img/cover.jpg" border="2">
+					</div>
+						<div class="g-30">
+							<img src="img/cover.jpg" border="2" hspace="20"/>
+						</div>
+					</div>
+					<div class="g-row">
+					 <div class="g-30">
+						 <img src="img/cover.jpg" border="2">
+					 </div>
+						 <div class="g-30">
+							 <img src="img/cover.jpg" border="2" hspace="20"/>
+						 </div>
+					 </div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-	</section>
+				 </section>
+</div>
 
 </body>
 
