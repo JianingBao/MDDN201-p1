@@ -12,6 +12,10 @@ h1{
 	color: white;
 	text-shadow: 4px 4px #8ABAD3FF
 }
+h3{
+	color: white;
+	text-shadow: 2px 2px #EDC2D8FF
+}
 section{
 	max-width: 1000px;
 	margin-left: auto;
